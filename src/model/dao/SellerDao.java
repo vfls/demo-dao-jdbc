@@ -1,9 +1,9 @@
-package model;
+package model.dao;
 import model.entities.Seller;
 
 import java.util.List;
 
-public interface sellerDao {
+public interface SellerDao {
     void inset (Seller obj);
     void update (Seller obj);
     void deleteById(Integer id);

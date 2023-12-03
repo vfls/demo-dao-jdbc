@@ -1,10 +1,10 @@
-package model;
+package model.dao;
 
 import model.entities.Department;
 
 import java.util.List;
 
-public interface departmentDao {
+public interface DepartmentDao {
     void inset (Department obj);
     void update (Department obj);
     void deleteById(Integer id);
